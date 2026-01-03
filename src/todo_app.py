@@ -4,6 +4,9 @@ A simple, in-memory Python console todo application that allows users to manage 
 """
 
 # Global task storage - list of dictionaries
+import utils.http_session
+import utils.transport
+import utils.session
 tasks = []
 next_task_id = 1
 

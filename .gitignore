@@ -17,8 +17,9 @@ coverage.xml
 *.cover
 *.log
 .idea
-.vscode
 *.swp
 *.swo
 *~
 .DS_Store
+config.bat
+node_modules
